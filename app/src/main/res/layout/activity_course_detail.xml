@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background_top"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/coursesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Назад"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/red_error"
+            app:cornerRadius="16dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Список курсов"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_dark"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:id="@+id/courseContainer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

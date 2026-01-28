@@ -1,0 +1,21 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Глубокий тёмный фон -->
+    <solid android:color="#1E1E1E"/> <!-- почти чёрный, но мягкий -->
+
+    <!-- Закруглённые углы -->
+    <corners android:radius="18dp"/>
+
+    <!-- Серый контур -->
+    <stroke
+        android:width="1.5dp"
+        android:color="#3D3D3D"/>
+
+    <!-- Внутренние отступы -->
+    <padding
+        android:left="16dp"
+        android:top="14dp"
+        android:right="16dp"
+        android:bottom="14dp"/>
+</shape>

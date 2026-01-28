@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Education</string>
+    <string name="btn_learning">Обучение</string>
+    <string name="btn_course">Курсы</string>
+    <string name="btn_files">Файлы (PDF)</string>
+    <string name="btn_profile">Профиль</string>
+    <string name="btn_test">Тест</string>
+</resources>
